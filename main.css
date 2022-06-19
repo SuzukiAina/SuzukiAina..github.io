@@ -1,0 +1,114 @@
+@media (max-width: 768px) {
+  html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c2024;
+}
+
+.content {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_icon {
+  width: 100%;
+}
+
+.home_icon img {
+  width: 100%;
+  height: auto;
+}
+
+.home_subtitle {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.home_phone_icon {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  margin-left: 20px;
+  width: 50%;
+  height: auto;
+}
+
+.home_phone_icon img {
+  overflow: visible;
+}
+
+.home_phone_subtitle {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#title_phone_video {
+  margin-left: -90px;
+  width: 120%;
+  height: inherit;
+  object-fit: cover;
+  transform: scale(1.04);
+  clip-path: inset(1px 1px);
+}
+
+.home_button {
+  width: 100%;
+}
+
+.home_phone_button {
+  width: 90%;
+  margin-left: 20px;
+}
+
+#title_video {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+  transform: scale(1.04);
+  clip-path: inset(1px 1px);
+}
+
+.modal-content {
+  background-color: #1c2024;
+  color: white;
+}
+
+#about_video {
+  max-width: 1850px;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel-item img {
+  max-width: 616px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.feature-card {
+  margin: 0 auto;
+}
